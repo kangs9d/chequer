@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7244c60-2df4-4832-b272-6a01f6c396dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/member/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/templates/member/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/member/templates/member/list.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +96,7 @@
       <updated>1583657889801</updated>
       <workItem from="1583657970323" duration="5913000" />
       <workItem from="1583675129547" duration="12553000" />
-      <workItem from="1583688011735" duration="2399000" />
+      <workItem from="1583688011735" duration="2629000" />
     </task>
     <servers />
   </component>
@@ -117,13 +116,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/member/views.py</url>
-          <line>32</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
