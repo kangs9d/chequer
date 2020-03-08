@@ -32,7 +32,7 @@ def add(request):
                     member_to_add = None
                 if member_to_add is not None:
                     if not list(workspace_to_add.member.filter(username=member)):
-                        if len(list(workspace_to_add.member.filter(username=member))) >= 10:
+                        if len(list(workspace_to_add.member.all())) >= 10:
                             messages.info(request, 'You cannot add more then 10 people.')
                             return HttpResponseRedirect('/member/add')
                         workspace_to_add.member.add(member_to_add)
