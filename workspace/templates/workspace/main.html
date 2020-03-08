@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Colorlib Templates">
+    <meta name="author" content="Colorlib">
+    <meta name="keywords" content="Colorlib Templates">
+
+    <!-- Title Page-->
+    <title>CHEQUER DEV TEST</title>
+    {% load static %}
+    <!-- Icons font CSS-->
+
+    <link href="{% static 'user/vendor/mdi-font/css/material-design-iconic-font.min.css' %}" rel="stylesheet" media="all">
+    <link href="{% static 'user/vendor/font-awesome-4.7/css/font-awesome.min.css' %}" rel="stylesheet" media="all">
+    <!-- Font special for pages-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <!-- Vendor CSS-->
+    <link href="{% static 'user/vendor/select2/select2.min.css' %}" rel="stylesheet" media="all">
+    <link href="{% static 'user/vendor/datepicker/daterangepicker.css' %}" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <link href="{% static 'user/css/main.css' %}" rel="stylesheet" media="all">
+</head>
+
+<body>
+    {% if messages %}
+        {% for message in messages %}
+         {% if message.tags %}  <script>alert("{{ message }}")</script> {% endif %}
+
+        {% endfor %}
+
+    {% endif %}
+    <div class="page-wrapper p-t-130 p-b-100 font-poppins" style="background: rgb(218,114,0);background: linear-gradient(90deg, rgba(218,114,0,1) 0%, rgba(214,135,0,1) 45%, rgba(255,245,0,1) 100%);">
+        <div class="wrapper wrapper--w680">
+            <div class="card card-4">
+                <div class="card-body">
+                    <h2 class="title" style="text-align: center;">CHEQUER DEV TEST</h2>
+                    {% if user.is_active %}
+                    <p style="text-align: right;">Hello, <a style="font-weight: bold;">{{user.username}}</a></p>
+                    {% else %}
+                    <p style="text-align: right;">Don't have ID yet? <a href="/user/signup">Sign Up</a></p>
+                    <p style="text-align: right;">Already got ID? <a href="/user/signin">Sign In</a></p>
+                    {% endif %}
+                     <div class="row row-space">
+                        <button class="btn btn--radius-2" style="background:#D68700; width:40%; padding:0!important; margin:30px auto;" onclick="location.href = '/workspace/insert'">Create Workspace</button>
+                        <button class="btn btn--radius-2" style="background:#D68700; width:40%; padding:0!important; margin:30px auto;" onclick="location.href = '/workspace/update'">Rename Workspace</button>
+                     </div>
+                     <div class="row row-space">
+                        <button class="btn btn--radius-2" style="background:#DA7200; width:30%; padding:0!important; margin:30px auto;" onclick="location.href = '/member/add'">Add Member</button>
+                        <button class="btn btn--radius-2" style="background:#DA7200; width:30%; padding:0!important; margin:30px auto;" onclick="location.href = '/member/delete'">Delete Member</button>
+                        <button class="btn btn--radius-2" style="background:#DA7200; width:30%; padding:0!important; margin:30px auto;" onclick="location.href = '/member/get'">Get Member</button>
+                     </div>
+                    <button class="btn btn--radius-2 btn--green" style="width:80%; margin:50px;" onclick="location.href = '/user/logout'">Log out</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Jquery JS-->
+    <script src="{% static 'user/vendor/jquery/jquery.min.js' %}"></script>
+    <!-- Vendor JS-->
+    <script src="{% static 'user/vendor/select2/select2.min.js' %}"></script>
+    <script src="{% static 'user/vendor/datepicker/moment.min.js' %}"></script>
+    <script src="{% static 'user/vendor/datepicker/daterangepicker.js' %}"></script>
+
+    <!-- Main JS-->
+    <script src="{% static 'user/js/global.js' %}"></script>
+
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+
+</html>
+<!-- end document-->
