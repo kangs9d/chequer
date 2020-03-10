@@ -4,7 +4,10 @@
     <list default="true" id="d7244c60-2df4-4832-b272-6a01f6c396dc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/templates/member/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/member/templates/member/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/member/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +99,12 @@
       <updated>1583657889801</updated>
       <workItem from="1583657970323" duration="5913000" />
       <workItem from="1583675129547" duration="12553000" />
-      <workItem from="1583688011735" duration="2629000" />
+      <workItem from="1583688011735" duration="3306000" />
+      <workItem from="1583740029805" duration="12000" />
+      <workItem from="1583816323136" duration="10057000" />
+      <workItem from="1583850323626" duration="1721000" />
+      <workItem from="1583856124008" duration="95000" />
+      <workItem from="1583856238915" duration="10000" />
     </task>
     <servers />
   </component>
@@ -108,7 +116,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

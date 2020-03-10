@@ -1,9 +1,9 @@
 from django.contrib.auth import login, logout, authenticate
 from django.contrib.auth.models import User
-from django.http import JsonResponse, HttpResponseRedirect
+from django.http import HttpResponseRedirect
 from django.shortcuts import render, redirect
 
-from user.forms import UserForm, UserLoginForm
+from user.forms import UserForm
 from django.contrib import messages
 
 
